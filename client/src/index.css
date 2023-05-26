@@ -1,0 +1,6 @@
+.timeline > span {
+    background-color: #f3e5f5;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
