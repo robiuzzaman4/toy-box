@@ -7,6 +7,7 @@ import useTitle from "../../hook/useTitle";
 import Gallery from "../../components/Gallery/Gallery";
 import Review from "../../components/Review/Review";
 import Faq from "../../components/Faq/Faq";
+import NewsLetter from "../../components/NewsLetter/NewsLetter";
 
 const Home = () => {
     useTitle("Home");
@@ -21,6 +22,7 @@ const Home = () => {
             <Shop></Shop>
             <Review></Review>
             <Faq></Faq>
+            <NewsLetter></NewsLetter>
         </>
     );
 };
