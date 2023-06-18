@@ -25,7 +25,7 @@ const Features = () => {
     return (
         <section className="bg-[#f6f1f7]">
             <div className="max-w-screen-md mx-auto grid gap-8 px-4 py-20">
-                <Typography variant="h4" className="font-bold">We provide best <br /> customar experience:</Typography>
+                <Typography variant="h4" className="font-bold">We provide best <br /> customar experience</Typography>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
                     {
                         features.map((feature) => (
