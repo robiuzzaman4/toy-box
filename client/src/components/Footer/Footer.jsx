@@ -14,6 +14,55 @@ const Footer = () => {
                         <span className="text-xl font-bold">Toybox</span>
                     </div>
                 </Link>
+                {/* navlinks */}
+                <ul className="flex flex-wrap gap-y-2 gap-x-8">
+                    <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="p-1 font-normal"
+                    >
+                        <Link to="/">
+                            Home
+                        </Link>
+                    </Typography>
+                    <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="p-1 font-normal"
+                    >
+                        <Link to="/allToys">
+                            All Toys
+                        </Link>
+                    </Typography>
+                    <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="p-1 font-normal"
+                    >
+                        <Link to="/blogs">
+                            Blogs
+                        </Link>
+                    </Typography>
+                    <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="p-1 font-normal"
+                    >
+                        <Link to="/login">
+                            Login
+                        </Link>
+                    </Typography>
+                    <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="p-1 font-normal"
+                    >
+                        <Link to="/register">
+                            Register
+                        </Link>
+                    </Typography>
+                </ul>
+                {/* contacts */}
                 <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
                     <li>
                         <Typography
@@ -33,7 +82,8 @@ const Footer = () => {
                     </li>
                 </ul>
             </div>
-            <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row md:items-center justify-center gap-4">
+            {/* copyright */}
+            <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row md:items-center justify-center gap-4 py-4">
                 <Typography color="blue-gray" className="font-normal text-sm">
                     All right reserved Toybox. Copyright & &copy; 2023.
                 </Typography>
