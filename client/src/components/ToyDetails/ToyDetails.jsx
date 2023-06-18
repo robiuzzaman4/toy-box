@@ -19,12 +19,12 @@ const ToyDetails = () => {
             <Button onClick={() => navigate("/")} size="sm" variant="outlined" color="purple" className="mb-4">
                 <ChevronDoubleLeftIcon className="w-3 h-3 text-gray-900" />
             </Button>
-            <div className="rounded-lg shadow grid gap-6">
-                <div className="w-44 h-44 mx-auto place-items-center rounded-full bg-gradient-to-b from-purple-50 to-purple-100 my-4">
-                    <img className="w-full h-full p-3 rounded-full" src={toyPhoto} alt="" />
+            <div className="rounded-lg grid gap-8">
+                <div className="h-64 w-full rounded-lg bg-gradient-to-b from-purple-50 to-purple-100 grid place-items-center group">
+                    <img className="w-40 h-40 rounded-lg group-hover:scale-110 transition duration-500" src={toyPhoto} alt="toyPhoto" />
                 </div>
-                <Typography className="px-4 sm:px-8 -mb-4" variant="h4" color="blue-gray"> {toyName} </Typography>
-                <div className="grid sm:grid-cols-2 gap-3 py-4 px-4 sm:px-8 ">
+                <Typography className="-mb-4" variant="h4" color="blue-gray"> {toyName} </Typography>
+                <div className="grid sm:grid-cols-2 gap-4 py-4">
                     <div className="flex flex-col gap-3">
                         <Typography className="text-sm" color="purple"> <span className="font-semibold">Price:</span> ${toyPrice} </Typography>
                         <Typography className="capitalize text-sm"> <span className="font-semibold">Category:</span> {subCategory} </Typography>

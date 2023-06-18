@@ -19,19 +19,19 @@ const Shop = () => {
 
     const tabs = ['science', 'math', 'engineering'];
     return (
-        <section className="max-w-screen-md mx-auto px-4 py-20">
-            <Typography variant="h4" className="font-bold">Shop by catagory:</Typography>
+        <section className="max-w-screen-md mx-auto  py-20">
+            <Typography variant="h4" className="font-bold px-4">Shop by catagory:</Typography>
 
-            <div className="py-6 ">
+            <div className="py-6">
                 <Tabs value="science">
-                    <TabsHeader className="max-w-sm">
+                    <TabsHeader className="max-w-sm mx-4">
                         {tabs.map((tab) => (
                             <Tab onClick={() => handleTabChange(tab)} key={tab} value={tab} className="capitalize">
                                 {tab}
                             </Tab>
                         ))}
                     </TabsHeader>
-                    <TabsBody className="mt-10 min-h-[300px] grid md:grid-cols-2 gap-6">
+                    <TabsBody className="mt-10 min-h-[300px] grid md:grid-cols-2  w-full">
                         {
                             categories.map((category) => <TabCard
                             key={category._id}

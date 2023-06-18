@@ -8,6 +8,7 @@ import Gallery from "../../components/Gallery/Gallery";
 import Review from "../../components/Review/Review";
 import Faq from "../../components/Faq/Faq";
 import NewsLetter from "../../components/NewsLetter/NewsLetter";
+import Features from "../../components/Features/Features";
 
 const Home = () => {
     useTitle("Home");
@@ -19,6 +20,7 @@ const Home = () => {
         <>
             <Hero></Hero>
             <Gallery></Gallery>
+            <Features></Features>
             <Shop></Shop>
             <Review></Review>
             <Faq></Faq>

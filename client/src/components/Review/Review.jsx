@@ -22,8 +22,8 @@ const Review = () => {
         }
     ]
     return (
-        <section className="bg-[#f6f1f7] px-4 py-20">
-            <div className="max-w-screen-md mx-auto grid gap-10">
+        <section className="bg-[#f6f1f7] py-20">
+            <div className="max-w-screen-md mx-auto grid gap-10 px-4">
                 <Typography variant="h4" className="font-bold">People say about Toybox:</Typography>
                 <div className="w-full">
                     <Timeline >
