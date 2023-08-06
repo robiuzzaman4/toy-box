@@ -49,7 +49,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/toys/:id",
-                element: <PrivetRoute><ToyDetails></ToyDetails></PrivetRoute>,
+                element: <ToyDetails></ToyDetails>,
                 loader: ({ params }) => fetch(`https://b7a11-toy-marketplace-server-side-robiuzzaman4.vercel.app/toys/${params.id}`)
             },
             {

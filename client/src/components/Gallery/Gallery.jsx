@@ -28,14 +28,14 @@ const Gallery = () => {
         },
     ]
     return (
-        <section className="max-w-screen-md mx-auto px-4 py-20 grid gap-10 mt-10">
+        <section className="max-w-screen-lg mx-auto px-4 py-20 grid gap-10 mt-10">
             <Typography variant="h4" className="font-bold">See Galleries</Typography>
             <div className="grid md:grid-cols-2 gap-6">
                 {
                     galleryData.map((data) => {
                         return (
                             <div key={data.id} data-aos="zoom-in">
-                                <figure className="relative h-52 w-full">
+                                <figure className="relative h-56 w-full">
                                     <img
                                         className="h-full w-full rounded-xl"
                                         src={data.img}

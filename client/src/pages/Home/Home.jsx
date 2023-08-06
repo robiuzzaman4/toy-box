@@ -10,6 +10,7 @@ import Faq from "../../components/Faq/Faq";
 import NewsLetter from "../../components/NewsLetter/NewsLetter";
 import Features from "../../components/Features/Features";
 import Stats from "../../components/Stats/Stats";
+import WhyChooseToybox from "../../components/WhyChooseToybox/WhyChooseToybox";
 
 const Home = () => {
     useTitle("Home");
@@ -21,6 +22,7 @@ const Home = () => {
         <>
             <Hero></Hero>
             <Stats></Stats>
+            <WhyChooseToybox></WhyChooseToybox>
             <Gallery></Gallery>
             <Features></Features>
             <Shop></Shop>

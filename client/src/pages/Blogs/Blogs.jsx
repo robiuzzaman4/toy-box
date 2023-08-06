@@ -40,7 +40,7 @@ const Blogs = () => {
     return (
 
 
-        <section className="max-w-screen-md mx-auto px-4 py-10 grid gap-12">
+        <section className="max-w-screen-lg mx-auto px-4 py-10 grid gap-12">
             <div className="grid gap-8">
                 <div data-aos="zoom-in">
                     <figure className="relative h-60 w-full max-w-md mx-auto">

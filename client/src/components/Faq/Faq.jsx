@@ -27,7 +27,7 @@ const Faq = () => {
         );
     }
     return (
-        <section className="max-w-screen-md mx-auto px-4 py-20 grid gap-10">
+        <section className="max-w-screen-lg mx-auto px-4 py-20 grid gap-10">
             <Typography variant="h4" className="font-bold">Frequently asked questions</Typography>
             <div>
                 <Accordion animate={customAnimation} open={open === 1} icon={<Icon id={1} open={open} />}>

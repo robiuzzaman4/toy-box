@@ -15,7 +15,7 @@ const ToyDetails = () => {
 
 
     return (
-        <section className="max-w-screen-sm mx-auto px-4 py-20">
+        <section className="max-w-screen-md mx-auto px-4 py-20">
             <Button onClick={() => navigate("/")} size="sm" variant="outlined" color="purple" className="mb-4">
                 <ChevronDoubleLeftIcon className="w-3 h-3 text-gray-900" />
             </Button>

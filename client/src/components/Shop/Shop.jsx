@@ -19,7 +19,7 @@ const Shop = () => {
 
     const tabs = ['science', 'math', 'engineering'];
     return (
-        <section className="max-w-screen-md mx-auto  py-20">
+        <section className="max-w-screen-lg mx-auto py-20">
             <Typography variant="h4" className="font-bold px-4">Explore Toys</Typography>
 
             <div className="py-6">

@@ -18,7 +18,7 @@ const NewsLetter = () => {
     }
     return (
         <section className="px-4 py-20">
-            <div className="max-w-screen-md mx-auto grid md:grid-cols-2 gap-4">
+            <div className="max-w-screen-lg mx-auto grid md:grid-cols-2 gap-4">
                 <div className="w-full h-full">
                     <img className="w-full h-full p-4" src="/mail.svg" alt="" />
                 </div>

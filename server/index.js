@@ -85,6 +85,7 @@ async function run() {
             }
             const result = await toyCollection.find(query).toArray();
             res.send(result);
+            console.log(result);
         })
 
         app.delete("/myToys/:id", async (req, res) => {

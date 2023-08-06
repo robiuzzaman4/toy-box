@@ -60,7 +60,7 @@ const AddAToy = () => {
 
     return (
         <section className="max-w-screen-xl mx-auto px-4 py-10">
-            <div className="w-full max-w-screen-md mx-auto">
+            <div className="w-full max-w-screen-lg mx-auto">
                 <Card color="transparent" shadow={false}>
                     <Typography variant="h4" color="blue-gray">
                         Add a Toy

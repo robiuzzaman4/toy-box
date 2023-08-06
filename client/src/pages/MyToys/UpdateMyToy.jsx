@@ -50,7 +50,7 @@ const UpdateMyToy = () => {
 
     return (
         <section className="max-w-screen-xl mx-auto px-4 py-10">
-            <div className="w-full max-w-screen-md mx-auto">
+            <div className="w-full max-w-screen-lg mx-auto">
 
                 <Button onClick={() => navigate(-1)} size="sm" variant="outlined" color="purple" className="mb-4">
                     <ChevronDoubleLeftIcon className="w-3 h-3 text-gray-900" />
